@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risk Angrepssimulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Risk Angrepssimulator</h1>
+    <div class="input-group">
+      <label for="attackingTroops">Angripende Tropper:</label>
+      <input type="number" id="attackingTroops" min="1" required>
+    </div>
+    <div class="input-group">
+      <label for="defendingTroops">Forsvarende Tropper:</label>
+      <input type="number" id="defendingTroops" min="1" required>
+    </div>
+    <button class="button-85" id="simulateButton" role="button">Simuler Angrep</button>
+    <div id="header" class="header"></div>
+    <div id="result" class="result-container"></div> <!-- Flyttet hit -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
