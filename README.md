@@ -1,0 +1,2 @@
+# Riskulator
+Gutta spiller risk
