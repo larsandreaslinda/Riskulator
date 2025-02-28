@@ -118,3 +118,5 @@ document.getElementById("simulateButton").addEventListener("click", function() {
 
     document.getElementById("result").innerHTML = log.join('');
 });
+
+// Test kommentar til github 
