@@ -121,3 +121,4 @@ document.getElementById("simulateButton").addEventListener("click", function() {
 
 // Test kommentar til github 
 // Test branch til github
+// test ny gren kommentar 
